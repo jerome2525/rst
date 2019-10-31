@@ -1,0 +1,57 @@
+//@include font-face("Georgia", font-files("Georgia.woff")); => include font face properly, just place it on /fonts folder
+//@include font-face("GibsonBold", font-files("gibson-bold.ttf"));
+//@include font-face("GibsonRegular", font-files("Gibson-Regular.ttf"));
+//@include font-face("GibsonSemiBold", font-files("Gibson-SemiBold.otf"));
+//@include font-face("GibsonBoldItalic", font-files("Gibson-BoldItalic.ttf"));
+//@include font-face("GibsonRegularItalic", font-files("Gibson-RegularItalic.ttf"));
+//@include font-face("MyriadProRegular", font-files("MyriadPro-Regular.otf"));
+
+$red: #E1261C;
+$blue: #337ab7;
+$gray: #f5f5f5;
+$darkgray: darken($gray, 40%);
+$black: #000000;
+$gold: #D3B88B;
+$offwhite: #f8f8f8;
+$green: #69804e;
+$white: #ffffff;
+
+/* Fonts
+---------------------------------------- */
+$font-stack-1: 'Poppins', Arial, sans-serif;
+
+/* Susy
+---------------------------------------- */
+
+$susy: (
+        columns: 12,
+        gutters: .25,
+        math: fluid,
+        output: float,
+);
+
+@include breakpoint-set('default feature', 'max-width');
+
+@include border-box-sizing;
+
+$huge: min-width 1920px;
+$hugelarge: min-width 1366px;
+$hugelarge2: max-width 1600px;
+$desk: min-width 1280px;
+$desk2: 1280px 1365px;
+$deskmed: 1280px 1900px;
+$portrait: 1024px 1279px;
+$tabletpor: 768px 1279px;
+$abovetablet: min-width 1023px;
+$tablet: 768px 1023px;
+$abovemobile: min-width 768px;
+$mobiletabpor: max-width 1279px;
+$mobiletab: max-width 1023px;
+$mobile: max-width 767px;
+$smallmobile: max-width 320px;
+
+
+
+
+
+
